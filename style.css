@@ -436,3 +436,175 @@ nav a:hover {
 .btn:hover {
     box-shadow: 0 5px 20px rgba(56, 189, 248, 0.3);
 }
+
+/* PINK AND PURPLE AESTHETIC THEME */
+
+body {
+    background: #fff0f6;
+    color: #4b245f;
+}
+
+/* NAVIGATION */
+
+nav {
+    background: #e9c5f2;
+}
+
+nav h2 {
+    color: #762b91;
+}
+
+nav a {
+    color: #542568;
+}
+
+nav a:hover {
+    color: #b34bd1;
+}
+
+/* HOME */
+
+.hero {
+    background: linear-gradient(
+        135deg,
+        #ffe1ef,
+        #e9c5f2,
+        #d9c2ff
+    );
+}
+
+.hero h1 {
+    color: #542568;
+}
+
+.hero h1 span {
+    color: #a23ac2;
+}
+
+.hero h3 {
+    color: #762b91;
+}
+
+.hero p {
+    color: #623b70;
+}
+
+/* BUTTONS */
+
+.btn {
+    background: #a855c7;
+    color: white;
+    border-radius: 25px;
+}
+
+.btn:hover {
+    background: #762b91;
+}
+
+/* ABOUT */
+
+.about {
+    background: #fff0f6;
+}
+
+.about h2,
+.about-card h3 {
+    color: #762b91;
+}
+
+.about-card {
+    background: #f4dcfa;
+    border: 1px solid #dfb5eb;
+}
+
+.about-card p {
+    color: #623b70;
+}
+
+/* SKILLS */
+
+.skills {
+    background: #fce4f1;
+}
+
+.skill-card {
+    background: #e9d5ff;
+    border: 1px solid #d8b4fe;
+}
+
+.skill-card h3 {
+    color: #762b91;
+}
+
+.skill-card p {
+    color: #623b70;
+}
+
+/* PROJECTS */
+
+.projects {
+    background: #fff0f6;
+}
+
+.project-card {
+    background: #f1d8fa;
+    border: 1px solid #d8b4fe;
+}
+
+.project-card h3 {
+    color: #542568;
+}
+
+.project-card p {
+    color: #3b703e;
+}
+
+.project-icon {
+    color: #b080be;
+}
+
+.project-tags span {
+    background: #83b19b;
+    color: #25685d;
+}
+
+/* CONTACT */
+
+.contact {
+    background: #fce4f1;
+}
+
+.contact-card {
+    background: #e9d5ff;
+    border: 1px solid #d8b4fe;
+}
+
+.contact-card h3,
+.contact-card a {
+    color: #762b91;
+}
+
+.contact-card p {
+    color: #623b70;
+}
+
+/* FOOTER */
+
+.footer {
+    background: #542568;
+}
+
+.footer h3 {
+    color: #f9c5e5;
+}
+
+.footer p {
+    color: #fff0f6;
+}
+
+/* SECTION TITLES */
+
+section h2 span,
+.intro {
+    color: #a23ac2;
+}
