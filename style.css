@@ -1,0 +1,116 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #101827;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background: #172337;
+}
+
+nav h2 {
+    color: #38bdf8;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+section {
+    padding: 80px 10%;
+    text-align: center;
+}
+
+.hero {
+    padding: 140px 10%;
+    background: linear-gradient(135deg, #101827, #203b59);
+}
+
+.hero h1 {
+    font-size: 55px;
+    color: #38bdf8;
+    margin: 15px;
+}
+
+.hero h3 {
+    margin: 15px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 25px;
+    background: #38bdf8;
+    color: #101827;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+section h2 {
+    color: #38bdf8;
+    margin-bottom: 25px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.cards div, .project {
+    background: #203047;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.project {
+    max-width: 500px;
+    margin: 15px auto;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #172337;
+}
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+    }
+}
