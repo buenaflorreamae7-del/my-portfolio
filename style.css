@@ -608,3 +608,11 @@ section h2 span,
 .intro {
     color: #a23ac2;
 }
+.profile-picture {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid #d8a7e8;
+    box-shadow: 0 0 25px rgba(168, 85, 199, 0.35);
+}
